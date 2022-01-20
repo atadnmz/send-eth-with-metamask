@@ -10,7 +10,6 @@ const SendEthContainer = () => {
 
   useEffect(() => {
     if (window.ethereum) {
-      getMetamaskData();
       window.ethereum.on("accountsChanged", function () {
         getMetamaskData();
       });
@@ -24,7 +23,8 @@ const SendEthContainer = () => {
 
       setBalance(web3.utils.fromWei(balance, "ether"));
     } catch (error) {
-      alert(error);
+      console.log(error);
+      alert(error.message);
     }
   }
 
