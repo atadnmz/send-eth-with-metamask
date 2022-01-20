@@ -23,7 +23,6 @@ const SendEthContainer = () => {
 
       setBalance(web3.utils.fromWei(balance, "ether"));
     } catch (error) {
-      console.log(error);
       alert(error.message);
     }
   }
