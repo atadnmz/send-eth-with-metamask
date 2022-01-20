@@ -41,6 +41,6 @@ Some screens of the application is given below for better understanding.
 
 <p> Initial screen <br/> 
  <img src="screenshots/main-page.png" width="400px" title="initial screen"/>
- <img src="screenshots/metamask-intereaction.png" width="400px" title="with metamask"/> 
+ <img src="screenshots/metamask-interaction.png" width="400px" title="with metamask"/> 
 </p>
 <br/><img src="screenshots/transaction-done.png" width="400px" title="transaction"/>
